@@ -11,10 +11,6 @@ CreditsSection1:Paragraph({Header = "Script Creator",Body = "Mommy Flames <3"});
 
 CreditsSection1:Spacer();
 
-CreditsSection1:Paragraph({Header = "Maclib Creator",Body = "biggaboy212 <3"});
-
-CreditsSection1:Spacer();
-
 CreditsSection1:Paragraph({Header = "Some Sources",Body = "Sirius Team <3"});
 
 CreditsSection1:Divider();
