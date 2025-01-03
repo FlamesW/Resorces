@@ -67,6 +67,7 @@ CreditsSection4:Label({Text = "Disclaimer"});
 CreditsSection4:SubLabel({Text = 'This software is provided "as-is", without any express or implied warranty. The author is not responsible for any damages resulting from the use of this script.'});
 
 -- // Temporary!!!
+task.spawn(function()
 if not getgenv().Settings["PerformanceMode"] then
     getgenv().Window:Dialog({Title = Window.Settings.Title,Description = "You are missing some settings please confirm so the new update gets copied to clipboard.",Buttons = {{Name = "Confirm",
     Callback = function()
@@ -93,4 +94,5 @@ if not getgenv().Settings["PerformanceMode"] then
             ]])            
         end)
     end,},{Name = "Cancel"}}})
+end
 end
