@@ -7,11 +7,11 @@ CreditsSection1:Divider();
 
 CreditsSection1:Spacer();
 
-CreditsSection1:Paragraph({Header = "Script Creator",Body = "Mommy Flames 💞"});
+CreditsSection1:Paragraph({Header = "Script Creator",Body = "Mommy Flames  💖"});
 
 CreditsSection1:Spacer();
 
-CreditsSection1:Paragraph({Header = "Some Sources",Body = "Sirius Team 💞"});
+CreditsSection1:Paragraph({Header = "Some Sources",Body = "Sirius Team  💖"});
 
 CreditsSection1:Divider();
 
