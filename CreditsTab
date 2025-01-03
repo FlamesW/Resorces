@@ -1,6 +1,4 @@
 -- // This is for the script, It is not meant to be executed.
-getgenv().CreditsTab = ImportantTabs:Tab({Name = "Credits",Image = "rbxassetid://10723385545"});
-
 local CreditsSection1 = getgenv().CreditsTab:Section({Side = "Left"});
 
 CreditsSection1:Header({Text = "Credits Wall"});
