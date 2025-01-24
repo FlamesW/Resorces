@@ -31,7 +31,7 @@ CreditsSection2:SubLabel({Text = "Please dont contact me for no reason~"});
 
 local CreditsSection3 = getgenv().CreditsTab:Section({Side = "Left"});
 
-CreditsSection3:Button({Name = "Join Discord Server",Callback = function()
+CreditsSection3:Button({Name = "Join Discord Server [LOCKED]",Callback = function()
 	Window:Notify({Title = Window.Settings.Title,Description = "Discord link copied to clipboard!",Lifetime = 3});
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamesW/Main/home/Discord"))();
 end})
